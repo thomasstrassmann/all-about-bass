@@ -96,7 +96,7 @@ The color palette considered is composed of an orange tone of the bass from the 
 All iconogrophy content comes from the Font Awesome repertoire. 
 Google Fons was used for the typography. The font ... is used for important texts and headlines, the font ... is used for descriptive paragraphs.
 
-
+A website logo was created with the Adobe Creative Cloud, Adobe Express to be exact. The website logo is also part of the [visual-language folder](./assets/visual-language/).
 
 
 ## Features
