@@ -1,15 +1,18 @@
 # All about bass
 ## Your resource for basses 
 ---
-### Table of contents
+## Table of contents
 1. [Introduction](#introduction) 
 2. [Preparation - UX and UXD](#preparation)
-3. [Features](#)
+3. [Features](#features)
 4. [Testing](#)
 5. [Deployment](#) 
 6. [Credits / attributes](#) 
 
-### Introduction 
+
+
+
+## Introduction 
 ---
 This website is about one of my biggest passions: playing bass. I´ve been a bass player for over 20 years now and because of that it made sense to me to do a project about it.
 
@@ -20,7 +23,10 @@ On the other hand, visitors who are already interested in the subject, or who ar
 
 Image Placeholder 
 
-### Preparation - UX and UXD
+
+
+
+## Preparation - UX and UXD
 ---
 As it may have become clear in the introduction, this site is intended for a broad audience. 
 This is a webpage about bass, that is catchy to new interested people, but also filled with content, that could be relevant to a professional bass player. The challenge is to collect or create content that will appeal to any potential website visitor interested in the topic. In whatever way - as an introduction to the topic, or as a source of ideas for your own bass lines.
@@ -53,25 +59,47 @@ Now much has been written about what is possible. What is not feasible and there
 
 --- 
 ### Structure 
-The website consists of ... HTML pages to best implement the previously listed points. 
+The website consists of 4 HTML pages to best implement the previously listed points. 
 
 **Index page** 
+
 A navigation bar with the 3 sections can be found in the header. If time permits, an own logo will be created for the website. The navigation bar will change to a hamburger menu on smaller devices. Just below the navigation bar, there will be a large hero section with a sub-heading. Here you can see directly what the site offers and who it is for. At the bottom, the footer will cap off all pages with links to external sources. 
 
-**History page**  
+**History page**
+
 The history page will work with a large background image containing the most important history facts(steps of decades). For the sake of better readability and accessibility, the text passages will be provided with a high-contrast background.
 
-**Influential players page** - This site will contain a selection of the best bass players throughout the history. Basically, you can think of this as the Hall of Fame of bass playing. A gallery with videos and a short paragraph describing the bass player.
+**Influential players page**   
 
-**Playing tips**  On this HTML page there will be a section for beginners, and one for advanced players. The content is composed of self-written paragraphs and external videos. As a rule, a distinction is always made between the right-hand technique and the left-hand technique. 
+This site will contain a selection of the best bass players throughout the history. Basically, you can think of this as the Hall of Fame of bass playing. A gallery with videos and a short paragraph describing the bass player.
+
+**Playing tips**  
+
+On this HTML page there will be a section for beginners, and one for advanced players. The content is composed of self-written paragraphs and external videos. As a rule, a distinction is always made between the right-hand technique and the left-hand technique. There is also the possibility to sign up for a newsletter via form, which sends out notifications in case new playing tips are added to the page.
 
 *All subpages besides the index page, will of course also have the navigation bar and the footer.*
 
 ---
 ### Skeleton 
-To get a visual idea of the already mentioned content, a blueprint or wireframe model was made. The wireframes are the index page and the history page. 
+To get a visual idea of the already mentioned content, a blueprint or wireframe model was made. There are 4 corresponding wireframe models for each HTML page. For the sake of completeness, it should be mentioned here that the wireframes are not binding and ideas and conceptions of the website may change during the development phase.
 
-The influential players and playing tips pages were deliberately not created as wireframes in order to have more creative freedom. Generally galleries don't work well as wireframes. 
 You can click [here](./assets/wireframes/) to take a look at the wireframes.
+
+---
+### Surface
+As a result of the wireframe model, a first visual language was created in the last panel of the User Expericence Design. This can be found [here](./assets/visual-language/).
+For the sake of completeness, it should be mentioned here that the design layouts are not binding and ideas and conceptions of the website may change during the development phase.
+Since there were restrictions in terms of design software (pencil) and since time is short, the design approaches are rudimentary and leave room for design.
+
+The color palette considered is composed of an orange tone of the bass from the Hero image, with the application of other compound colors. Adobe's Color Wheel was used for this purpose. The colors are also located in the link above. 
+
+All iconogrophy content comes from the Font Awesome repertoire. 
+Google Fons was used for the typography. The font ... is used for important texts and headlines, the font ... is used for descriptive paragraphs.
+
+
+
+
+## Features
+
 
 
