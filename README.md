@@ -34,7 +34,7 @@ In terms of content, there is also an intersection, which is the history of the 
 
 The **UXD - User Experience Design** was declared and described in advance and includes the 5 panels *strategy, scope, structure, skeleton and surface*. 
 
-* Strategy 
+### Strategy 
 All content and external links are culturally appropriate, completely regardless of where a user is from. Music connects and therefore should not exclude anyone. 
 
 What makes this website so special is a mix of relevant content for all bass players (regardless of experience level), videos that will excite any music fan, and a history of the electric bass that is easy to follow, engaging, and has a common thread.
@@ -43,31 +43,35 @@ To cataloge the content, we have different types of content available: youtube-v
 
 In terms of technology, one of the things that can be stated is that all technologies are appropriate and feasible for display. This includes, for example, the embedding of videos, the graphical display of a timeline and the responsiveness on all devices. 
 
-* Scope 
+---
+### Scope 
 In this section, the assumption is made that each visitor has different goals or ambitions. One may just want to meet new musicians, another may want to learn more about the instrument, and another may want to find inspiration. Knowing about these different wants and needs are important to implement the site for the target groups. 
 
 To get there, the user must realize at first glance that there are three separate and extensive pages (history, influential players and tips) that are easy to reach and only require a maximum of 1-2 clicks.
 
 Now much has been written about what is possible. What is not feasible and therefore limits the page is the implementation of dynamic content, because in this module JavaScript is not used.
 
-* Structure 
+--- 
+### Structure 
 The website consists of ... HTML pages to best implement the previously listed points. 
 
-**Index page** - A navigation bar with the 3 sections can be found in the header. If time permits, an own logo will be created for the website. The navigation bar will change to a hamburger menu on smaller devices. Just below the navigation bar, there will be a large hero section with a sub-heading. Here you can see directly what the site offers and who it is for. At the bottom, the footer will cap off all pages with links to external sources. 
----
-**History page** - The history page will work with a large background image containing the most important history facts(steps of decades). For the sake of better readability and accessibility, the text passages will be provided with a high-contrast background.
----
+**Index page** 
+A navigation bar with the 3 sections can be found in the header. If time permits, an own logo will be created for the website. The navigation bar will change to a hamburger menu on smaller devices. Just below the navigation bar, there will be a large hero section with a sub-heading. Here you can see directly what the site offers and who it is for. At the bottom, the footer will cap off all pages with links to external sources. 
+
+**History page**  
+The history page will work with a large background image containing the most important history facts(steps of decades). For the sake of better readability and accessibility, the text passages will be provided with a high-contrast background.
+
 **Influential players page** - This site will contain a selection of the best bass players throughout the history. Basically, you can think of this as the Hall of Fame of bass playing. A gallery with videos and a short paragraph describing the bass player.
----
-**Playing tips** - On this HTML page there will be a section for beginners, and one for advanced players. The content is composed of self-written paragraphs and external videos. As a rule, a distinction is always made between the right-hand technique and the left-hand technique. 
+
+**Playing tips**  On this HTML page there will be a section for beginners, and one for advanced players. The content is composed of self-written paragraphs and external videos. As a rule, a distinction is always made between the right-hand technique and the left-hand technique. 
 
 *All subpages besides the index page, will of course also have the navigation bar and the footer.*
 
-
-* Skeleton 
+---
+### Skeleton 
 To get a visual idea of the already mentioned content, a blueprint or wireframe model was made. The wireframes are the index page and the history page. 
 
 The influential players and playing tips pages were deliberately not created as wireframes in order to have more creative freedom. Generally galleries don't work well as wireframes. 
-You can click [here]() to take a look at the wireframes.
+You can click [here](./assets/wireframes) to take a look at the wireframes.
 
 
