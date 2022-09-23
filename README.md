@@ -72,6 +72,6 @@ The history page will work with a large background image containing the most imp
 To get a visual idea of the already mentioned content, a blueprint or wireframe model was made. The wireframes are the index page and the history page. 
 
 The influential players and playing tips pages were deliberately not created as wireframes in order to have more creative freedom. Generally galleries don't work well as wireframes. 
-You can click [here](./assets/wireframes) to take a look at the wireframes.
+You can click [here](./assets/wireframes/) to take a look at the wireframes.
 
 
