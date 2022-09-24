@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Inter:wght@300&display=swap');
+/*font-family: 'Fjalla One', sans-serif;
+font-family: 'Inter', sans-serif;    */
+
 body {
     margin:0;
     padding:0;
@@ -11,6 +15,7 @@ header {
     display:flex;
     align-items: center;
     gap: 30%;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 .navbar > a {
@@ -126,4 +131,28 @@ Miguel Nunez for the basic layout & functions of the hamburger menu
     .navbar {
         gap: 50%;
     }
+}
+
+/*Hero Section*/
+#hero {
+    width: 100%;
+    position: relative;
+}
+
+#hero img {
+    width: 100%;
+}
+
+#hero-textcontainer {
+    position:absolute;
+    top: 30%;
+    right: 5%;
+    width: 30vw;
+    height: auto;
+    background-color: rgba(128, 119, 83, 0.4);
+}
+
+h2 {
+    color: white;
+    text-align: center;
 }
