@@ -6,6 +6,7 @@ body {
     margin:0;
     padding:0;
     box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
 }
 
 header {
@@ -16,6 +17,12 @@ header {
     align-items: center;
     gap: 30%;
     font-family: 'Fjalla One', sans-serif;
+}
+
+p {
+    color: white;
+    font-family: 'Inter', sans-serif; 
+    font-size: clamp(0.6rem, 2vw, 1.4rem);
 }
 
 .navbar > a {
@@ -109,7 +116,7 @@ Miguel Nunez for the basic layout & functions of the hamburger menu
         top: 10vh;
         gap: 0;
         flex-direction: column;
-        background-color: rgba(0, 0, 0, 0.6);
+        background-color: rgba(0, 0, 0, 0.7);
         width: 100%;
         text-align: center;
         transition: 0.3s;
@@ -145,14 +152,26 @@ Miguel Nunez for the basic layout & functions of the hamburger menu
 
 #hero-textcontainer {
     position:absolute;
-    top: 30%;
+    top: 10%;
     right: 5%;
     width: 30vw;
     height: auto;
-    background-color: rgba(128, 119, 83, 0.4);
+    background-color: rgba(128, 119, 83, 0.6);
+    border: 1px solid white;
+    border-radius: 5%;
 }
 
 h2 {
     color: white;
     text-align: center;
+    font-size: clamp(0.6rem, 2vw, 1.4rem);
+    padding: 2%;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+/* Introduction */
+
+#introduction {
+    width: 80%;
+    margin: 0 auto;
 }
