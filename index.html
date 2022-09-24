@@ -11,30 +11,59 @@
     <title>All about bass - Your resource for basses</title>
 </head>
 <body>
+    <!-- Header -->
     <header>
-        <nav>
-            <a href="index.html">
-                <img src="./assets/visual-language/logo.png" alt="website logo">
-            </a>
-        </nav>
-    </header>
+    <nav class="navbar">
+        <a href="index.html">
+            <img src="./assets/visual-language/logo.png" alt="website logo">
+        </a>
 
-    <section>
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="#" class="nav-link">History of bass</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Influential players</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Playing tips</a></li>
+        </ul>
 
-    </section>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+</header>
+
+    <main>
+        <section>
+
+        </section>
+        
+        <section>
     
-    <section>
-
-    </section>
+        </section>
+        
+        
+        <section>
     
-    
-    <section>
+        </section>
 
-    </section>
+    </main>
 
     <footer>
 
     </footer>
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const navMenu = document.querySelector(".nav-menu");
 
+        hamburger.addEventListener('click', () =>{
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+        })
+
+        document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () =>{
+        hamburger.classList.remove("active");
+        navMenu.classList.remove("active");
+        }))
+    </script>
 </body>
 </html>
