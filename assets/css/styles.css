@@ -202,13 +202,13 @@ because coloring of list bullet points is not implemented in css with an own pro
 #introduction ul li::before {
     content: "\2022";
     color: white;
-    font-weight: bold;
     display: inline-block;
     width: 1em;
     margin-left: -1em; 
   }
 
   li, #introduction form label  {
+    font-size: clamp(0.6rem, 2vw, 1.4rem);
     color:white;
   }
 
@@ -222,3 +222,35 @@ because coloring of list bullet points is not implemented in css with an own pro
         clear: left;
     }
 } 
+
+#introduction-form {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: clamp(0.6rem, 2vw, 1.4rem);
+    width: 60%;
+    height: auto;
+    margin: 5% auto;
+    background-color: #1bb3aa;
+    border-radius: 5%;
+
+}
+
+.introduction-input {
+    margin: 3%;
+    padding: 2%;
+    text-align: center;
+}
+
+.introduction-input label {
+    display: block;
+}
+
+input {
+    width: 60%;
+    border-radius: 5%;
+}
+
+input[type=submit] {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: clamp(0.6rem, 2vw, 1.4rem);
+    background-color: #e5a239;
+}
