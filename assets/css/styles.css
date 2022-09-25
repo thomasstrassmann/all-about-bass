@@ -175,3 +175,50 @@ h2 {
     width: 80%;
     margin: 0 auto;
 }
+
+#introduction-img-container {
+    width: 280px;
+    height: 280px;
+    float: left;
+    margin: 1% 2%;
+}
+
+#introduction img {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+/* #introduction ul inspired by https://www.w3schools.com/howto/howto_css_bullet_color.asp 
+because coloring of list bullet points is not implemented in css with an own property
+*/ 
+
+#introduction ul {
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+  }
+  
+#introduction ul li::before {
+    content: "\2022";
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em; 
+  }
+
+  li, #introduction form label  {
+    color:white;
+  }
+
+@media screen and (max-width:624px){
+    #introduction-img-container{
+        display: block;
+        margin: 0 auto;
+        float: none;
+    }
+    #introduction p {
+        clear: left;
+    }
+} 
