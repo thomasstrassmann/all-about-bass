@@ -223,6 +223,13 @@ because coloring of list bullet points is not implemented in css with an own pro
     }
 } 
 
+.highlight {
+    font-weight: bold;
+    color:#1bb3aa;
+}
+
+/* Form element */
+
 #introduction-form {
     font-family: 'Fjalla One', sans-serif;
     font-size: clamp(0.6rem, 2vw, 1.4rem);
@@ -232,6 +239,11 @@ because coloring of list bullet points is not implemented in css with an own pro
     background-color: #1bb3aa;
     border-radius: 5%;
     border: 2px solid white;
+
+}
+
+#introduction-form h3 {
+    text-align: center;
 
 }
 
@@ -256,12 +268,29 @@ input[type=submit] {
     background-color: #e5a239;
 }
 
+/* Quote section */ 
+
+aside {
+    width: 60%;
+    margin: 5% auto;
+}
+
+.emphasize {
+    font-style: italic;
+}
+
+/* Footer section */
+
 footer {
     width: 100%;
     height: 10vh;
-    background-color: #e5a239;
+    background-color: #807753;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     font-size: clamp(0.6rem, 2vw, 1.4rem);
+}
+
+footer img {
+    max-width: 100px;
 }
