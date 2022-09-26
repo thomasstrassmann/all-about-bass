@@ -12,16 +12,16 @@
 </head>
 <body>
     <!-- Header -->
-    <header>
+    <header aria-label="Header section with navigation">
         <nav class="navbar">
-            <a href="index.html">
+            <a href="index.html" aria-label="Click here for homepage">
                  <img src="./assets/visual-language/logo.png" alt="website logo">
             </a>
 
             <ul class="nav-menu">
-                <li class="nav-item"><a href="#" class="nav-link">History of bass</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Influential players</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Playing tips</a></li>
+                <li class="nav-item"><a href="#" class="nav-link" aria-label="CLick here for the history of bass">History of bass</a></li>
+                <li class="nav-item"><a href="#" class="nav-link" aria-label="Click here for interesting players">Influential players</a></li>
+                <li class="nav-item"><a href="#" class="nav-link" aria-label="Click here for playing tips">Playing tips</a></li>
             </ul>
 
             <div class="hamburger">
@@ -34,7 +34,7 @@
 
     <main>
     <!-- Hero section -->
-        <section id="hero">
+        <section id="hero" aria-label="Decorative hero section">
             <img src="./assets/images/hero.jpg" alt="a man playing the bass">
             <div id="hero-textcontainer">
                 <h2>Your resource around Bass history and influential players!</h2>
@@ -42,7 +42,7 @@
         </section>
 
     <!-- Introduction section -->    
-        <section id="introduction">
+        <section id="introduction" aria-label="Introduction: A few words about the bass and this website">
             <h2>Welcome to All about Bass - The resource for the four string phenomenon!</h2>
             <p> What makes the electric bass so special and why is it worth taking a close look at one of the most underrated 
                 instruments in the world?</p> 
@@ -78,30 +78,30 @@
                 for beginners and veterans. To make sure you don't miss anything, 
                 <span class="highlight">sign up now</span> for our playing tips newsletter!</p>
             
-            <form method="post" action="#" id="introduction-form">
+            <form method="post" action="#" id="introduction-form" aria-label="Sign up for our newsletter for playing tips right here">
                 <h3>Playing tips newsletter</h3>
                 <div class="introduction-input">
                     <label for="fname">First Name: </label> 
-                    <input type="text" id="fname" name="first_name" required>
+                    <input type="text" id="fname" name="first_name" required aria-label="Enter your first name">
                 </div>
 
                 <div class="introduction-input">
                     <label for="lname">Last Name: </label> 
-                    <input type="text" id="lname" name="last_name" required>
+                    <input type="text" id="lname" name="last_name" required aria-label="Enter your last name">
                 </div>
 
                 <div class="introduction-input">
                     <label for="email">E-Mail adress: </label>
-                    <input type="email" id="email" name="email" required>
+                    <input type="email" id="email" name="email" required aria-label="Enter your e-mail adress">
                 </div>
 
                 <div class="introduction-input">
-                    <input type="submit" value="Register now!">
+                    <input type="submit" value="Register now!" aria-label="Click here to submit">
                 </div>
             </form>
         </section>
 
-        <aside>
+        <aside aria-label="Inspirational quote about the bass">
             <p>"The bass is the link between harmony and rhythm. It is the foundation of a band. 
                 It is what all the other instruments stand upon, but it is rarely recognized as that."<br>
                 <span class="emphasize">Victor Wooten, The Music Lesson: A Spiritual Search for Growth Through Music</span>
@@ -110,7 +110,7 @@
 
     </main>
 
-    <footer>
+    <footer aria-label="Footer section with social media links and website logo">
             <a href="https://youtube.com" target="_blank" rel="noopener"
             aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
             <a href="https://twitter.com" target="_blank" rel="noopener"
