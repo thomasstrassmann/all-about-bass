@@ -149,6 +149,7 @@ Miguel Nunez for the basic layout & functions of the hamburger menu
     height: 70vw;
     position: relative;
     top: 10vh;
+    border-bottom: 2px solid white;
 }
 
 #hero-img {
@@ -172,7 +173,7 @@ Miguel Nunez for the basic layout & functions of the hamburger menu
     background: rgba(0, 0, 0, 0.05);
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
 }
 
 .hero-effect {
@@ -188,20 +189,20 @@ Miguel Nunez for the basic layout & functions of the hamburger menu
 #hero-textcontainer {
     width: 30vw;
     height: auto;
-    background-color: rgba(128, 119, 83, 0.6);
+    background-color: rgba(229, 162, 57, 0.9);
     border: 1px solid white;
     border-radius: 5%;
 }
 
 h1, h2 {
-    color: white;
     text-align: center;
-    font-size: clamp(0.5rem, 2vw, 2rem);
+    font-size: clamp(0.7rem, 2vw, 4rem);
     padding: 2%;
     font-family: 'Fjalla One', sans-serif;
 }
 
 h2 {
+    color:white;
     margin-bottom: 5%;
 }
 
@@ -297,7 +298,10 @@ because coloring of list bullet points is not implemented in css with an own pro
 
 input {
     width: 60%;
-    border-radius: 5%;
+}
+
+input[type=text], input[type=email] {
+    height: clamp(0.5rem, 2vw, 2rem);
 }
 
 input[type=submit] {
