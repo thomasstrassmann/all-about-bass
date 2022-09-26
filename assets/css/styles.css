@@ -356,10 +356,10 @@ footer img {
 }
 
 #history-background {
-    width: 100%;
+    width: auto;
     height: 100%;
     position: relative;
-    background-image: url(/assets/images/vertical.jpg);
+    background-image: url(/assets/images/yvette-garcia-YJsfCWMpamE-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -387,7 +387,7 @@ footer img {
   /* Card container */
   .card {
     position: relative;
-    max-width: 400px;
+    max-width: 600px;
   }
   
   /* setting padding based on even or odd */
@@ -402,7 +402,7 @@ footer img {
     content: "";
     position: absolute;
     width: 50%;
-    border: solid orangered;
+    border: solid #e5a239;
   }
   
   /* Setting the border of top, bottom, left */
@@ -445,7 +445,7 @@ footer img {
   .info {
     display: flex;
     flex-direction: column;
-    background: #333;
+    background: #1bb3aa;
     color: gray;
     border-radius: 10px;
     padding: 10px;
@@ -453,8 +453,10 @@ footer img {
   
   /* Title of the card */
   .title {
-    color: orangered;
+    color: #e5a239;
     position: relative;
+    font-size: clamp(0.5rem, 2vw, 2rem);
+    font-family: 'Fjalla One', sans-serif;
   }
   
   /* Timeline dot  */
@@ -465,7 +467,7 @@ footer img {
     height: 10px;
     background: white;
     border-radius: 999px;
-    border: 3px solid orangered;
+    border: 3px solid #e5a239;
   }
   
   /* text right if the card is even  */
