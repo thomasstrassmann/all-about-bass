@@ -376,6 +376,12 @@ footer img {
     justify-content: center;
     position: relative;
   }
+
+.info iframe {
+    width: 80%;
+    display: block;
+    margin: 1% auto;
+}  
   
   /* Timeline Container */
   .timeline {
@@ -453,9 +459,9 @@ footer img {
   
   /* Title of the card */
   .title {
-    color: #e5a239;
+    color: black;
     position: relative;
-    font-size: clamp(0.5rem, 2vw, 2rem);
+    font-size: clamp(0.8rem, 2vw, 3rem);
     font-family: 'Fjalla One', sans-serif;
   }
   
