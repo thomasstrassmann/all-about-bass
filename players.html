@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A resource for beginners and advanced bass players">
+    <meta name="keywords" content="bass players, history of bass, playing tips, influential players, best bass players">
+    <meta name="author" content="Thomas Strassmann">
+    <link href="./assets/css/styles.css" rel="stylesheet">
+    <title>All about bass - Your resource for basses</title>
+</head>
+<body>
+    <!-- Header -->
+    <header aria-label="Header section with navigation">
+        <nav class="navbar">
+            <a href="index.html" aria-label="Click here for homepage">
+                 <img src="./assets/visual-language/logo.png" alt="website logo">
+            </a>
+
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="./history.html" class="nav-link" aria-label="CLick here for the history of bass">History of bass</a></li>
+                <li class="nav-item"><a href="./players.html" class="nav-link" aria-label="Click here for interesting players">Influential players</a></li>
+                <li class="nav-item"><a href="#" class="nav-link" aria-label="Click here for playing tips">Playing tips</a></li>
+            </ul>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        
+        
+    </main>
+
+    <footer aria-label="Footer section with social media links and website logo">
+            <!-- Footer Links inspired by Love Running project, Code Institute -->
+            <a href="https://youtube.com" target="_blank" rel="noopener"
+            aria-label="Visit our own YouTube page for more content (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
+            <a href="https://twitter.com" target="_blank" rel="noopener"
+            aria-label="Visit our own Twitter page for more content (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+            <a href="https://facebook.com" target="_blank" rel="noopener"
+            aria-label="Visit our own Facebook page for more content (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+            <img src="./assets/visual-language/logo.png" alt="website logo">
+    </footer>
+
+
+    <script src="https://kit.fontawesome.com/5e172bbf47.js" crossorigin="anonymous"></script>
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const navMenu = document.querySelector(".nav-menu");
+
+        hamburger.addEventListener('click', () =>{
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+        })
+
+        document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () =>{
+        hamburger.classList.remove("active");
+        navMenu.classList.remove("active");
+        }))
+    </script>
+</body>
+</html>

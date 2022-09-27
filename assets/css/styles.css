@@ -380,10 +380,10 @@ footer img {
 .info a {
     color: black;
     cursor: pointer;
-    font-weight: bold;
+    font-weight: 100;
 }
 
-.info a:hover{
+.info a:hover {
     text-decoration: underline;
 }
   
