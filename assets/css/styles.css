@@ -391,6 +391,12 @@ iframe {
     padding: 1% 5%;
 }
 
+/* Necessary to make the link clickable, otherwise the div.card pseudo elements can cover it */
+.info span {
+    position: relative;
+    z-index: 10;
+}
+
 .info a {
     color: black;
     cursor: pointer;
