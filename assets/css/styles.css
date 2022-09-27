@@ -370,7 +370,7 @@ footer img {
   .iframe-container {
     position: relative;
     overflow: hidden;
-    width: 90%;
+    width: 80%;
     padding-top: 56.25%; 
     margin: 0 auto;
   }
