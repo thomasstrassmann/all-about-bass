@@ -376,11 +376,21 @@ footer img {
 .info p {
     padding: 1% 5%;
 }
+
+.info a {
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.info a:hover{
+    text-decoration: underline;
+}
   
   /* Timeline Container */
   .timeline {
     background: var(--primary-color);
-    margin: 20px auto;
+    margin: 0 auto;
     padding: 20px;
   }
   
@@ -484,3 +494,5 @@ footer img {
   .card:nth-child(even) > .info > .title::before {
     right: -45px;
   }
+
+
