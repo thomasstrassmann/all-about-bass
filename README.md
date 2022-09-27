@@ -53,29 +53,25 @@ In terms of technology, one of the things that can be stated is that all technol
 ### Scope 
 In this section, the assumption is made that each visitor has different goals or ambitions. One may just want to meet new musicians, another may want to learn more about the instrument, and another may want to find inspiration. Knowing about these different wants and needs are important to implement the site for the target groups. 
 
-To get there, the user must realize at first glance that there are three separate and extensive pages (history, influential players and tips) that are easy to reach and only require a maximum of 1-2 clicks.
+To get there, the user must realize at first glance that there are three separate and extensive pages (index, history, influential players) that are easy to reach and only require a maximum of 1-2 clicks.
 
-Now much has been written about what is possible. What is not feasible and therefore limits the page is the implementation of dynamic content, because in this module JavaScript is not used.
+Now much has been written about what is possible. What is not feasible and therefore limits the page is the implementation of dynamic content, because in this module JavaScript is not used. The exception to the rule is the hamburger menu (a pure HTML and CSS hamburger menu is simply much more complex and time-consuming to implement).
 
 --- 
 ### Structure 
-The website consists of 4 HTML pages to best implement the previously listed points. 
+The website consists of 3 HTML pages to best implement the previously listed points. 
 
 **Index page** 
 
-A navigation bar with the 3 sections can be found in the header. If time permits, an own logo will be created for the website. The navigation bar will change to a hamburger menu on smaller devices. Just below the navigation bar, there will be a large hero section with a sub-heading. Here you can see directly what the site offers and who it is for. At the bottom, the footer will cap off all pages with links to external sources. 
+A navigation bar with the 3 sections can be found in the header. An own logo will be created for the website. The navigation bar will change to a hamburger menu on smaller devices. Just below the navigation bar, there will be a large hero section with a sub-heading. Here you can see directly what the site offers and who it is for. There is also the possibility to sign up for a hypothetical playing tips newsletter via form. At the bottom, the footer will cap off all pages with links to external sources. 
 
 **History page**
 
-The history page will work with a large background image containing the most important history facts(steps of decades). For the sake of better readability and accessibility, the text passages will be provided with a high-contrast background.
+The history page will work with a vertical timeline containing the most important history facts(steps of decades). For the sake of better readability and accessibility, the text passages will be provided with a high-contrast background.
 
 **Influential players page**   
 
 This site will contain a selection of the best bass players throughout the history. Basically, you can think of this as the Hall of Fame of bass playing. A gallery with videos and a short paragraph describing the bass player.
-
-**Playing tips**  
-
-On this HTML page there will be a section for beginners, and one for advanced players. The content is composed of self-written paragraphs and external videos. As a rule, a distinction is always made between the right-hand technique and the left-hand technique. There is also the possibility to sign up for a newsletter via form, which sends out notifications in case new playing tips are added to the page.
 
 *All subpages besides the index page, will of course also have the navigation bar and the footer.*
 
@@ -93,8 +89,7 @@ Since there were restrictions in terms of design software (pencil) and since tim
 
 The color palette considered is composed of an orange tone of the bass from the Hero image, with the application of other compound colors. Adobe's Color Wheel was used for this purpose. The colors are also located in the link above. 
 
-All iconogrophy content comes from the Font Awesome repertoire. 
-Google Fons was used for the typography. The font ... is used for important texts and headlines, the font ... is used for descriptive paragraphs.
+Google Fons was used for the typography. The font 'Fjallo One' is used for important texts and headlines, the font 'Inter' is used for descriptive paragraphs.
 
 A website logo was created with the Adobe Creative Cloud, Adobe Express to be exact. The website logo is also part of the [visual-language folder](./assets/visual-language/).
 
