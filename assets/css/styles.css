@@ -521,6 +521,7 @@ iframe {
     color: #e5a239;
     text-align: center;
     text-decoration: underline;
+    font-size: clamp(0.7rem, 2vw, 4rem);
 }
 
 #players p {
