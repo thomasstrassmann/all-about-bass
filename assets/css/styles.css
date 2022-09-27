@@ -355,17 +355,6 @@ footer img {
     overflow: scroll;
 }
 
-#history-background {
-    width: auto;
-    height: 100%;
-    position: relative;
-    background-image: url(/assets/images/yvette-garcia-YJsfCWMpamE-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-clip: padding-box;
-}
-
 /* Basic timeline inspired by Alvaro Trigo, source: https://codepen.io/alvarotrigo/pen/BawBzjM */ 
 
 
@@ -378,10 +367,14 @@ footer img {
   }
 
 .info iframe {
-    width: 80%;
+    width: 60%;
     display: block;
     margin: 1% auto;
 }  
+
+.info p {
+    padding: 1% 5%;
+}
   
   /* Timeline Container */
   .timeline {
@@ -393,7 +386,7 @@ footer img {
   /* Card container */
   .card {
     position: relative;
-    max-width: 600px;
+    max-width: 800px;
   }
   
   /* setting padding based on even or odd */
