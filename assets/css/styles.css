@@ -372,11 +372,12 @@ footer img {
   .iframe-container {
     position: relative;
     overflow: hidden;
-    width: 100%;
+    width: 90%;
     padding-top: 56.25%; 
+    margin: 0 auto;
   }
   
-  .info iframe {
+iframe {
     position: absolute;
     top: 0;
     left: 0;
@@ -506,4 +507,28 @@ footer img {
     right: -45px;
 }
 
+/* Players page specifications */
+
+#players {
+    position: relative;
+    top: 10vh;
+    width: 100vw;
+    height: 100vh;
+    overflow: scroll;
+}
+
+#players h3 {
+    color: #e5a239;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#players p {
+    width: 60%;
+    margin: 2% auto;
+}
+
+#players .iframe-container {
+    margin-bottom: 20%;
+}
 
