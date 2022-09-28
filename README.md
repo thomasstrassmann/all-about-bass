@@ -7,13 +7,16 @@
 [Click here for the full website access](https://thomasstrassmann.github.io/all-about-bass/)
 
 
+
 ## Table of contents
 1. [Introduction](#introduction) 
 2. [Preparation - UX and UXD](#preparation)
 3. [Features](#features)
 4. [Testing](#testing)
-5. [Deployment](#) 
-6. [Credits / attributes](#) 
+5. [Deployment](#deployment) 
+6. [Credits / attributes](#credits) 
+
+
 
 ## Introduction 
 ---
@@ -22,6 +25,8 @@ This website is about one of my biggest passions: playing bass. I´ve been a bas
 What should this page achieve? 
 Well, on the one hand it should infect people with my enthusiasm for this instrument - people who have little or no connection to the instrument in this case. 
 On the other hand, visitors who are already interested in the subject, or who are passionate bass players themselves, should find a platform that informs about the history of the development of the electric bass and create new incentives to play.
+
+
 
 ## Preparation - UX and UXD
 ---
@@ -74,7 +79,7 @@ This site will contain a selection of the best bass players throughout the histo
 
 ---
 ### Skeleton 
-To get a visual idea of the already mentioned content, a blueprint or wireframe model was made. There are 4 corresponding wireframe models for each HTML page. For the sake of completeness, it should be mentioned here that the wireframes are not binding and ideas and conceptions of the website may change during the development phase.
+To get a visual idea of the already mentioned content, a blueprint or wireframe model was made. There are corresponding wireframe models for each HTML page. For the sake of completeness, it should be mentioned here that the wireframes are not binding and ideas and conceptions of the website may change during the development phase.
 
 You can click [here](./assets/wireframes/) to take a look at the wireframes.
 
@@ -86,9 +91,10 @@ Since there were restrictions in terms of design software (pencil) and since tim
 
 The color palette considered is composed of an orange tone of the bass from the Hero image, with the application of other compound colors. Adobe's Color Wheel was used for this purpose. The colors are also located in the link above. 
 
-Google Fons was used for the typography. The font 'Fjallo One' is used for important texts and headlines, the font 'Inter' is used for descriptive paragraphs.
+Google Fonts was used for the typography. The font 'Fjallo One' is used for important texts and headlines, the font 'Inter' is used for descriptive paragraphs. For the icons in the footer, the fontawesome page was a reliable source.
 
 A website logo was created with the Adobe Creative Cloud, Adobe Express to be exact. The website logo is also part of the [visual-language folder](./assets/visual-language/).
+
 
 
 ## Features
@@ -145,7 +151,9 @@ The following features would be ideas for further development...
 * search function
 
 
+
 ## Testing 
+---
 The page and its functionality was tested manually. This was done primarily using Chrome DevTools (Lighthouse), as well as the website http://www.responsinator.com/. These were especially helpful to check layout, design and structure. The most persistent bug was that the background image of the hero section and the associated filter effect was not visible on mobile devices. After many fix attempts it was clear that this was related to GitHub Pages. An absolute URL as value could finally fix the bug.
 
 Furthermore, the W3C Validator (jigsaw) was used to ensure that all HTML pages and the CSS file are valid. Hardly any errors were found. The only notable ones were a few block elements that slipped into p-tags and the obsolete frameborder attribute of the iframes that was replaced with css and the border property. 
@@ -155,4 +163,47 @@ To test accessibility and SEO, Lighthouse was used. This showed that these value
 ![Lighthouse report](./assets/doc-images/doc-lighthouse.png "Lighthouse report")
 
 
+No other bugs were found at the time of this release. 
+
+
+
+## Deployment 
+--- 
+This page is hosted via GitHub Pages, which is easily doable via the settings. In the future this webpage could also run under a custom url. 
+
+
+## Credits / attributes
+---
+During the construction of this website some sources and pages were very helpful. A listing of the sources is done here by categorization: 
+
+
+
+**Images:**
+Jan Kopriva, source: https://www.pexels.com/de-de/foto/person-die-gitarre-spielt-3858086/
+
+freestocks.org, source: https://www.pexels.com/de-de/foto/person-hande-verwischen-musik-96380/
+
+
+
+**Videos:**
+All Videos belong to the publisher, who is recognizable in the video.
+I do not take credit for the creation of the videos.
+
+
+
+**Text:** 
+Wikipedia, source: https://en.wikipedia.org/wiki/Bass_guitar (input ideas for history.html)
+
+
+
+**Code:** 
+Miguel Nunez, source: https://www.youtube.com/watch?v=flItyHiDm7E) (implementation of the hamburger menu)
+
+w3schools.com, source https://www.w3schools.com/howto/howto_css_bullet_color.asp  (coloring of bullet point list)
+
+w3schools.com, source: https://www.w3schools.com/howto/howto_css_responsive_iframes.asp (responsive iframe container)
+
+Alvaro Trigo, source: https://codepen.io/alvarotrigo/pen/BawBzjM (basic design of the vertical timeline)
+
+Code Institute, Love Running Project (basic structure of footer markup)
 
