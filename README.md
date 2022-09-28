@@ -11,7 +11,7 @@
 1. [Introduction](#introduction) 
 2. [Preparation - UX and UXD](#preparation)
 3. [Features](#features)
-4. [Testing](#)
+4. [Testing](#testing)
 5. [Deployment](#) 
 6. [Credits / attributes](#) 
 
@@ -95,11 +95,12 @@ A website logo was created with the Adobe Creative Cloud, Adobe Express to be ex
 ---
 ### Basic features 
 All HTML files have certain features in common these are: 
-* A custom logo
+* A custom logo.
 * Responsive content and layout using relative sizes.
-* A header that has a hamburger menu on narrower devices 
-* A hover and slide-in effect in the menu, the hamburger displays a "x" when active.
-* A media query that takes into account the landscape mode and thus avoids incorrect rendering.
+* A fixed header that has a hamburger menu on narrower devices. 
+* Hover and slide-in effect in the menu, the hamburger displays a "x" when active.
+* Media query that takes into account the landscape mode and thus avoids incorrect rendering.
+* Responsive font-size, implemented with the clamp function in CSS.
 
 ![Header image](./assets/doc-images/doc-header.png "Header image")
 
@@ -117,8 +118,30 @@ In addition to the basic features, the index page also has other special feature
 ![Form element](./assets/doc-images/doc-form.png "Form element")
 
 ### History page specific features 
-In addition to the basic features, the history page also has other special features...
+In addition to the basic features, the history page has the following special features...
 * A vertical timeline was created using CSS. 
 * Responsive Youtube videos via iframe depict a better historical context.
 
 ![History page](./assets/doc-images/doc-history.png "History page")
+
+
+### Players page specific features
+In addition to the basic features, the history page has the following special features...
+
+*A gallery with responsive iframes showcasing influential bass players.
+
+![Players Page](./assets/doc-images/doc-players.png "Players Page")
+
+
+### Features for the future 
+The following features would be ideas for further development...
+*Playing Tips page for beginners and advanced players (resource hub of the newsletter)
+*Community area with a forum and a bass encyclopedia
+*search function
+
+
+## Testing 
+The page and its functionality was tested manually. This was done primarily using Chrome DevTools (Lighthouse), as well as the website http://www.responsinator.com/. These were especially helpful to check layout, design and structure.
+
+Furthermore, the W3C Validator (jigsaw) was used to ensure that all HTML pages and the CSS file are valid. 
+
