@@ -156,7 +156,7 @@ Miguel Nunez for the basic layout & functions of the hamburger menu
     width: 100%;
     height: 100%;
     position: relative;
-    background-image: url(/assets/images/hero.jpg);
+    background-image: url("https://github.com/thomasstrassmann/all-about-bass/blob/main/assets/images/hero.jpg?raw=true");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
