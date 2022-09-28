@@ -2,7 +2,7 @@
 ## Your resource for basses 
 ---
 
-![Overview of All about bass](./assets/images/overview.png "Overview of All about bass")
+![Overview of All about bass](./assets/doc-images/overview.png "Overview of All about bass")
 
 [Click here for the full website access](https://thomasstrassmann.github.io/all-about-bass/)
 
@@ -101,9 +101,9 @@ All HTML files have certain features in common these are:
 * A hover and slide-in effect in the menu, the hamburger displays a "x" when active.
 * A media query that takes into account the landscape mode and thus avoids incorrect rendering.
 
-![Header image](./assets/images/header.png "Header image")
+![Header image](./assets/doc-images/doc-header.png "Header image")
 
-![Footer image](./assets/images/footer.png "Footer image")
+![Footer image](./assets/doc-images/doc-footer.png "Footer image")
 
 
 ### Index page specific features
@@ -112,13 +112,13 @@ In addition to the basic features, the index page also has other special feature
 * A responsive introduction section that displays the image as a block element on smaller devices. On wide devices, the text flows around the image on the right. 
 * A hypothetical form element that allows users to sign up for a newsletter using the appropriate back-end technology.
 
-![Hero section](./assets/images/doc-hero.png "Hero section")
+![Hero section](./assets/doc-images/doc-hero.png "Hero section")
 
-![Form element](./assets/images/docs-form.png "Form element")
+![Form element](./assets/doc-images/doc-form.png "Form element")
 
 ### History page specific features 
 In addition to the basic features, the history page also has other special features...
 * A vertical timeline was created using CSS. 
 * Responsive Youtube videos via iframe depict a better historical context.
 
-![History page](./assets/images/doc-history.png "History page")
+![History page](./assets/doc-images/doc-history.png "History page")
