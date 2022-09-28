@@ -1,6 +1,6 @@
 # All about bass
 ## Your resource for basses 
----
+
 
 ![Overview of All about bass](./assets/doc-images/overview.png "Overview of All about bass")
 
@@ -19,7 +19,7 @@
 
 
 ## Introduction 
----
+
 This website is about one of my biggest passions: playing bass. I´ve been a bass player for over 20 years now and because of that it made sense to me to do a project about it.
 
 What should this page achieve? 
@@ -29,7 +29,7 @@ On the other hand, visitors who are already interested in the subject, or who ar
 
 
 ## Preparation - UX and UXD
----
+
 As it may have become clear in the introduction, this site is intended for a broad audience. 
 This is a webpage about bass, that is catchy to new interested people, but also filled with content, that could be relevant to a professional bass player. The challenge is to collect or create content that will appeal to any potential website visitor interested in the topic. In whatever way - as an introduction to the topic, or as a source of ideas for your own bass lines.
 
@@ -53,11 +53,11 @@ In terms of technology, one of the things that can be stated is that all technol
 
 ---
 ### Scope 
-In this section, the assumption is made that each visitor has different goals or ambitions. One may just want to meet new musicians, another may want to learn more about the instrument, and another may want to find inspiration. Knowing about these different wants and needs are important to implement the site for the target groups. 
+In this section, the assumption is made that each visitor has different goals or ambitions. One may just want to explore new musicians, another may want to learn more about the instrument, and another may want to find inspiration. Knowing about these different wants and needs are important to implement the site for the target groups. 
 
 To get there, the user must realize at first glance that there are three separate and extensive pages (index, history, influential players) that are easy to reach and only require a maximum of 1-2 clicks.
 
-Now much has been written about what is possible. What is not feasible and therefore limits the page is the implementation of dynamic content, because in this module JavaScript is not used. The exception to the rule is the hamburger menu (a pure HTML and CSS hamburger menu is simply much more complex and time-consuming to implement).
+Now much has been written about what is possible. What is not feasible and therefore limits the page is the implementation of dynamic content, because in this module JavaScript is not used. The exception to the rule is the hamburger menu (a pure HTML and CSS hamburger menu is simply much more complex and time-consuming to implement). Because JavaScript is only a few lines of code, it will be implemented in a script tag below every HTML page, instead of creating an external file.
 
 --- 
 ### Structure 
@@ -89,7 +89,7 @@ As a result of the wireframe model, a first visual language was created in the l
 For the sake of completeness, it should be mentioned here that the design layouts are not binding and ideas and conceptions of the website may change during the development phase.
 Since there were restrictions in terms of design software (pencil) and since time is short, the design approaches are rudimentary and leave room for design.
 
-The color palette considered is composed of an orange tone of the bass from the Hero image, with the application of other compound colors. Adobe's Color Wheel was used for this purpose. The colors are also located in the link above. 
+The color palette considered is composed of an orange tone of the bass from the hero image, with the application of other compound colors. Adobe's Color Wheel was used for this purpose. The colors are also located in the link above. 
 
 Google Fonts was used for the typography. The font 'Fjallo One' is used for important texts and headlines, the font 'Inter' is used for descriptive paragraphs. For the icons in the footer, the fontawesome page was a reliable source.
 
@@ -98,7 +98,7 @@ A website logo was created with the Adobe Creative Cloud, Adobe Express to be ex
 
 
 ## Features
----
+
 ### Basic features 
 All HTML files have certain features in common and these are: 
 * A custom logo.
@@ -146,14 +146,14 @@ In addition to the basic features, the history page has the following special fe
 
 ### Features for the future 
 The following features would be ideas for further development...
-* Playing Tips page for beginners and advanced players (resource hub of the newsletter)
+* Playing tips page for beginners and advanced players (resource hub of the newsletter)
 * Community area with a forum and a bass encyclopedia
 * search function
 
 
 
 ## Testing 
----
+
 The page and its functionality was tested manually. This was done primarily using Chrome DevTools (Lighthouse), as well as the website http://www.responsinator.com/. These were especially helpful to check layout, design and structure. The most persistent bug was that the background image of the hero section and the associated filter effect was not visible on mobile devices. After many fix attempts it was clear that this was related to GitHub Pages. An absolute URL as value could finally fix the bug.
 
 Furthermore, the W3C Validator (jigsaw) was used to ensure that all HTML pages and the CSS file are valid. Hardly any errors were found. The only notable ones were a few block elements that slipped into p-tags and the obsolete frameborder attribute of the iframes that was replaced with css and the border property. 
@@ -168,13 +168,14 @@ No other bugs were found at the time of this release.
 
 
 ## Deployment 
---- 
+
 This page is hosted via GitHub Pages, which is easily doable via the settings. In the future this webpage could also run under a custom url. 
 
 
-## Credits / attributes
----
-During the construction of this website some sources and pages were very helpful. A listing of the sources is done here by categorization: 
+## Credits
+
+During the construction of this website some sources and pages were very helpful and without it, it would have been much harder, so thanks to every source down below! 
+A listing of the sources is done here by categorization: 
 
 
 
@@ -193,6 +194,12 @@ I do not take credit for the creation of the videos.
 
 **Text:** 
 Wikipedia, source: https://en.wikipedia.org/wiki/Bass_guitar (input ideas for history.html)
+
+Sorkin Type, source: https://fonts.google.com/specimen/Fjalla+One?query=fjall (Fjalla One Font)
+
+Rasmus Andersson, source: https://fonts.google.com/specimen/Inter?query=Inter (Inter Font)
+
+Icons by https://fontawesome.com/
 
 
 
