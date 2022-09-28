@@ -178,11 +178,32 @@ Miguel Nunez for the basic layout & functions of the hamburger menu
 
 .hero-effect {
     animation: 3s ease-in 1 forwards brightness;
+    -webkit-animation: 3s ease-in 1 forwards brightness;
+    -moz-animation: 3s ease-in 1 forwards brightness;
+    -o-animation: 3s ease-in 1 forwards brightness;
+    -ms-animation: 3s ease-in 1 forwards brightness;
 }
 
 @keyframes brightness {
     100% {backdrop-filter: brightness(100%);}
 }
+
+@-webkit-keyframes brightness {
+    100% {backdrop-filter: brightness(100%);}
+}
+
+@-moz-keyframes brightness {
+    100% {backdrop-filter: brightness(100%);}
+}
+
+@-o-keyframes brightness {
+    100% {backdrop-filter: brightness(100%);}
+}
+
+@-ms-keyframes brightness {
+    100% {backdrop-filter: brightness(100%);}
+}
+
 
 /* Hero text */
 
