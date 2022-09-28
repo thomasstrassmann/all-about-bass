@@ -561,7 +561,7 @@ iframe {
 
 /* Media query for landscape, because header and footer get crushed otherwise */
 
-@media (orientation: landscape){
+@media all and (orientation:landscape){
     header, footer {
         height: 15vh;
     }
