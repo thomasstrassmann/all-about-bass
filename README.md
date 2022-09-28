@@ -94,7 +94,7 @@ A website logo was created with the Adobe Creative Cloud, Adobe Express to be ex
 ## Features
 ---
 ### Basic features 
-All HTML files have certain features in common these are: 
+All HTML files have certain features in common and these are: 
 * A custom logo.
 * Responsive content and layout using relative sizes.
 * A fixed header that has a hamburger menu on narrower devices. 
@@ -107,6 +107,7 @@ All HTML files have certain features in common these are:
 ![Footer image](./assets/doc-images/doc-footer.png "Footer image")
 
 
+
 ### Index page specific features
 In addition to the basic features, the index page also has other special features...
 * a large hero section with a brightness effect that lasts 3 seconds and then rests because the value of the fill-mode is forwards. 
@@ -117,6 +118,8 @@ In addition to the basic features, the index page also has other special feature
 
 ![Form element](./assets/doc-images/doc-form.png "Form element")
 
+
+
 ### History page specific features 
 In addition to the basic features, the history page has the following special features...
 * A vertical timeline was created using CSS. 
@@ -125,23 +128,31 @@ In addition to the basic features, the history page has the following special fe
 ![History page](./assets/doc-images/doc-history.png "History page")
 
 
+
 ### Players page specific features
 In addition to the basic features, the history page has the following special features...
 
-*A gallery with responsive iframes showcasing influential bass players.
+* A gallery with responsive iframes showcasing influential bass players.
 
 ![Players Page](./assets/doc-images/doc-players.png "Players Page")
 
 
+
 ### Features for the future 
 The following features would be ideas for further development...
-*Playing Tips page for beginners and advanced players (resource hub of the newsletter)
-*Community area with a forum and a bass encyclopedia
-*search function
+* Playing Tips page for beginners and advanced players (resource hub of the newsletter)
+* Community area with a forum and a bass encyclopedia
+* search function
 
 
 ## Testing 
-The page and its functionality was tested manually. This was done primarily using Chrome DevTools (Lighthouse), as well as the website http://www.responsinator.com/. These were especially helpful to check layout, design and structure.
+The page and its functionality was tested manually. This was done primarily using Chrome DevTools (Lighthouse), as well as the website http://www.responsinator.com/. These were especially helpful to check layout, design and structure. The most persistent bug was that the background image of the hero section and the associated filter effect was not visible on mobile devices. After many fix attempts it was clear that this was related to GitHub Pages. An absolute URL as value could finally fix the bug.
 
-Furthermore, the W3C Validator (jigsaw) was used to ensure that all HTML pages and the CSS file are valid. 
+Furthermore, the W3C Validator (jigsaw) was used to ensure that all HTML pages and the CSS file are valid. Hardly any errors were found. The only notable ones were a few block elements that slipped into p-tags and the obsolete frameborder attribute of the iframes that was replaced with css and the border property. 
+
+To test accessibility and SEO, Lighthouse was used. This showed that these values were excellent. In terms of performance, there is still room for improvement, which is particularly related to the effects and the iframes. 
+
+![Lighthouse report](./assets/doc-images/doc-lighthouse.png "Lighthouse report")
+
+
 
