@@ -92,6 +92,33 @@ A website logo was created with the Adobe Creative Cloud, Adobe Express to be ex
 
 
 ## Features
+---
+### Basic features 
+All HTML files have certain features in common these are: 
+* A custom logo
+* Responsive content and layout using relative sizes.
+* A header that has a hamburger menu on narrower devices 
+* A hover and slide-in effect in the menu, the hamburger displays a "x" when active.
+* A media query that takes into account the landscape mode and thus avoids incorrect rendering.
+
+![Header image](./assets/images/header.png "Header image")
+
+![Footer image](./assets/images/footer.png "Footer image")
 
 
+### Index page specific features
+In addition to the basic features, the index page also has other special features...
+* a large hero section with a brightness effect that lasts 3 seconds and then rests because the value of the fill-mode is forwards. 
+* A responsive introduction section that displays the image as a block element on smaller devices. On wide devices, the text flows around the image on the right. 
+* A hypothetical form element that allows users to sign up for a newsletter using the appropriate back-end technology.
 
+![Hero section](./assets/images/doc-hero.png "Hero section")
+
+![Form element](./assets/images/docs-form.png "Form element")
+
+### History page specific features 
+In addition to the basic features, the history page also has other special features...
+* A vertical timeline was created using CSS. 
+* Responsive Youtube videos via iframe depict a better historical context.
+
+![History page](./assets/images/doc-history.png "History page")
