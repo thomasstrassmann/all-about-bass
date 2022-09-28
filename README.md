@@ -1,6 +1,12 @@
 # All about bass
 ## Your resource for basses 
 ---
+
+![Overview of All about bass](./assets/images/overview.png "Overview of All about bass")
+
+[Click here for the full website access](https://thomasstrassmann.github.io/all-about-bass/)
+
+
 ## Table of contents
 1. [Introduction](#introduction) 
 2. [Preparation - UX and UXD](#preparation)
@@ -9,9 +15,6 @@
 5. [Deployment](#) 
 6. [Credits / attributes](#) 
 
-
-
-
 ## Introduction 
 ---
 This website is about one of my biggest passions: playing bass. I´ve been a bass player for over 20 years now and because of that it made sense to me to do a project about it.
@@ -19,12 +22,6 @@ This website is about one of my biggest passions: playing bass. I´ve been a bas
 What should this page achieve? 
 Well, on the one hand it should infect people with my enthusiasm for this instrument - people who have little or no connection to the instrument in this case. 
 On the other hand, visitors who are already interested in the subject, or who are passionate bass players themselves, should find a platform that informs about the history of the development of the electric bass and create new incentives to play.
-
-
-Image Placeholder 
-
-
-
 
 ## Preparation - UX and UXD
 ---
