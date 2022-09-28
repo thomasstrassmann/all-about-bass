@@ -156,17 +156,12 @@ Miguel Nunez for the basic layout & functions of the hamburger menu
     width: 100%;
     height: 100%;
     position: relative;
-    background-image: url(/assets/images/hero-for-mobile.jpg);
+    background-image: url(/assets/images/hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
     background-clip: padding-box;
-}
-
-@media screen and (max-width:768px) {
-#hero-image {
-    background: url(./assets/images/hero-for-mobile.jpg);
-}
+    visibility: visible;
 }
 
 
