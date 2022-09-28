@@ -165,7 +165,7 @@ Miguel Nunez for the basic layout & functions of the hamburger menu
 }
 
 
-/* Backdrop filter effect for hero image */
+/* Backdrop filter effect for hero image on all devices */
 
 .hero-filter {
     position: relative;
@@ -559,3 +559,17 @@ iframe {
     margin-bottom: 20%;
 }
 
+/* Media query for landscape, because header and footer get crushed otherwise */
+
+@media (orientation: landscape){
+    header, footer {
+        height: 15vh;
+    }
+    .nav-menu, #introduction, aside, footer, #history, #players {
+        top: 15vh;
+    }
+    #hero {
+        height: 85vh;
+        top: 15vh;
+    }
+}
