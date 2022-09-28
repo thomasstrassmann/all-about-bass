@@ -164,7 +164,7 @@ Miguel Nunez for the basic layout & functions of the hamburger menu
     background-image: url(/assets/images/hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top center;
     background-clip: padding-box;
 }
 
