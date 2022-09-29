@@ -557,7 +557,13 @@ iframe {
 }
 
 #players .iframe-container {
-    margin-bottom: 20%;
+    margin-bottom: 10%;
+}
+
+#players iframe {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
 }
 
 /* Media query for landscape, because header and footer get crushed otherwise */

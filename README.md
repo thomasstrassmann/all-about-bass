@@ -195,6 +195,8 @@ I do not take credit for the creation of the videos.
 **Text:** 
 Wikipedia, source: https://en.wikipedia.org/wiki/Bass_guitar (input ideas for history.html)
 
+mi.edu, source: https://www.mi.edu/in-the-know/history-bass-guitar-jazz-rock/ (input ideas for history.html)
+
 Sorkin Type, source: https://fonts.google.com/specimen/Fjalla+One?query=fjall (Fjalla One Font)
 
 Rasmus Andersson, source: https://fonts.google.com/specimen/Inter?query=Inter (Inter Font)
