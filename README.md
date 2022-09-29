@@ -143,6 +143,8 @@ In addition to the basic features, the history page has the following special fe
 ![Players Page](./assets/doc-images/doc-players.png "Players Page")
 
 
+What benefit or value do the functions have for the user? All the listed features make the interaction with the website more interesting, attractive / appealing and easier. 
+
 
 ### Features for the future 
 The following features would be ideas for further development...
