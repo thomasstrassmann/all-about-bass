@@ -173,6 +173,10 @@ No other bugs were found at the time of this release.
 
 This page is hosted via GitHub Pages, which is easily doable via the settings. In the future this webpage could also run under a custom url. 
 
+[You can access the website right here](https://thomasstrassmann.github.io/all-about-bass/)
+
+
+
 
 ## Credits
 
